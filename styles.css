@@ -5,7 +5,7 @@ html {
 }
 
 div {
-    border-bottom: 5px solid #3f98a8;
+    
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -20,8 +20,8 @@ div {
     border-top: 5px solid #3f98a8;
     border-right: 5px solid #3f98a8;
     border-left: 5px solid #3f98a8;
-    border-bottom: none;
     padding-top: 0.1em;
+    border-bottom: 5px solid #3f98a8;
 }
 
 .buttons2 {
@@ -30,8 +30,8 @@ div {
     border-top: 5px solid #3f98a8;
     border-right: 5px solid #3f98a8;
     border-left: none;
-    border-bottom: none;
     padding-top: 0.1em;
+    border-bottom: 5px solid #3f98a8;
 }
 
 div a {
@@ -45,6 +45,7 @@ h1 {
     margin: 0;
     width: 50%;
     font-size: 40px;
+    border-bottom: 5px dotted #3f98a8;
 }
 
 h2 {
@@ -80,4 +81,11 @@ footer {
     bottom: 0;
     position: absolute;
     width: 100%;
+}
+
+img {
+    height: 500px;
+    width: 425px;
+    display: block;
+    margin: auto;
 }
